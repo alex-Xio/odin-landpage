@@ -1,0 +1,192 @@
+html {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+}
+
+#hero, footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline;
+    margin-right: 16px;
+}
+section {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0 15vw;
+}
+
+.container {
+    padding-top: 25vh;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 32px;
+    min-height: 300px;
+}
+
+.info, .placeholder{
+    width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.placeholder {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero .description,
+.info button{
+    margin: 16px 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 16px;
+    padding: 8px 32px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#pics {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 48px 0 0 0;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 96px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 0 1 auto;
+    width: 200px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+}
+
+.card .description {
+    color: black;
+}
+
+#quoteSection {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 22vw;
+}
+
+#quoteText {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+#quoteAuthor {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#offer {
+    height: calc(100vh / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 17.5vw;
+}
+
+.banner {
+    background-color: #3882f6;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 32px 96px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner button {
+    border: 2px solid white;
+}
+
+h3 {
+    font-weight: bolder;
+    margin: 0;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
